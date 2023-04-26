@@ -72,7 +72,7 @@ contract JointSavings {
         /*
         Call the `contractBalance` variable and set it equal to the balance of the contract by using `address(this).balance`.
         */
-        // YOUR CODE HERE!
+        contractBalance = address(this).balance;
     }
 
     /*
@@ -81,7 +81,8 @@ contract JointSavings {
     function setAccounts(address payable account1, address payable account2) public{
 
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
-        // YOUR CODE HERE!
+        account1 = accountOne;
+        account2 = accountTwo;
     }
 
     /*
