@@ -27,6 +27,13 @@ Showing transaction between two accounts made from vanity-eth.tk
 Below you can see the results from using the contractBalance function to check on the transfer
 ![screenshot 7](/Execution_Results/img7_contractBalance_check.jpg)
 
+Below is using the lastToWithdraw function
+![screenshot 8](/Execution_Results/img8_lastToWithdrawal.jpg)
+
+Below is using the lastWithdrawAmaount function
+![screenshot 9](/Execution_Results/img9_lastWithdrawAmount.jpg)
+
+
 
 ## Technologies
 
