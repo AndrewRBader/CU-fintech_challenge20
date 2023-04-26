@@ -6,8 +6,14 @@ Solidity joint savings smart contract
 __
 
 ## Results
-In the image below we see the successfully compiled joint account contract
+In the image below we see the successfully compiled joint account contract!
 ![screenshot 1](/Execution_Results/img1_compiled-contract.jpg)
+
+In the image below we see the successfully deployed the joint account contract!
+![screenshot 2](/Execution_Results/img2_deployed-contract.jpg)
+
+In the image below we see the delopyed contracts information such as the contract address , gas, transaction cost and execution cost!
+![screenshot 3](/Execution_Results/img3_deployed-contract-information.jpg)
 
 ## Technologies
 
