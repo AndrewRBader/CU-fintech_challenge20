@@ -18,6 +18,9 @@ In the image below we see the delopyed contracts information such as the contrac
 In the image below we see 10 ETH deposited into the accout with the smart contract function
 ![screenshot 4](/Execution_Results/img4_deposited10ETH.jpg)
 
+looking in the terminal we see the successful transaction with the function
+![screenshot 5](/Execution_Results/img5_transaction-information.jpg)
+
 ## Technologies
 
 This project used Solidity and the remix ide
