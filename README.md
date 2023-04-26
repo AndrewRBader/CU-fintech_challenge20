@@ -30,7 +30,7 @@ Below you can see the results from using the contractBalance function to check o
 Below is using the lastToWithdraw function
 ![screenshot 8](/Execution_Results/img8_lastToWithdrawal.jpg)
 
-Below is using the lastWithdrawAmaount function
+Below is using the lastWithdrawAmount function
 ![screenshot 9](/Execution_Results/img9_lastWithdrawAmount.jpg)
 
 
