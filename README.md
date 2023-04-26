@@ -21,6 +21,13 @@ In the image below we see 10 ETH deposited into the accout with the smart contra
 looking in the terminal we see the successful transaction with the function
 ![screenshot 5](/Execution_Results/img5_transaction-information.jpg)
 
+Showing transaction between two accounts made from vanity-eth.tk 
+![screenshot 6](/Execution_Results/img6_transaction-between-2-accounts.jpg)
+
+Below you can see the results from using the contractBalance function to check on the transfer
+![screenshot 7](/Execution_Results/img7_contractBalance_check.jpg)
+
+
 ## Technologies
 
 This project used Solidity and the remix ide
