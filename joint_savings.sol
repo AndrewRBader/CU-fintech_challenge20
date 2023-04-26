@@ -29,8 +29,8 @@ contract JointSavings {
     address payable accountOne;
     address payable accountTwo;
     address public lastToWithdraw;
-    unit public lastWithdrawAmount;
-    unit public contractBalance;
+    uint public lastWithdrawAmount;
+    uint public contractBalance;
 
     /*
     Define a function named **withdraw** that will accept two arguments.
@@ -42,12 +42,12 @@ contract JointSavings {
         /*
         Define a `require` statement that checks if the `recipient` is equal to either `accountOne` or `accountTwo`. The `requiere` statement returns the text `"You don't own this account!"` if it does not.
         */
-        require(recipient == accountOne || recipient == accountTwo, "You don't own this account!")
+        require(recipient == accountOne || recipient == accountTwo, "You don't own this account!");
 
         /*
         Define a `require` statement that checks if the `balance` is sufficient to accomplish the withdraw operation. If there are insufficient funds, the text `Insufficient funds!` is returned.
         */
-        require(address(this).balance >= amount, "Insufficient funds!")
+        require(address(this).balance >= amount, "Insufficient funds!");
 
         /*
         Add and `if` statement to check if the `lastToWithdraw` is not equal to (`!=`) to `recipient` If `lastToWithdraw` is not equal, then set it to the current value of `recipient`.
@@ -63,7 +63,7 @@ contract JointSavings {
         lastWithdrawAmount = amount;
 
         // Call the `contractBalance` variable and set it equal to the balance of the contract by using `address(this).balance` to reflect the new balance of the contract.
-        contractBalance = address(this).balance
+        contractBalance = address(this).balance;
     }
 
     // Define a `public payable` function named `deposit`.
